@@ -24,7 +24,6 @@ choice = input("Activate windows? (Y/N): ").strip().upper()
 if choice == 'Y':
     for command in commands:
         try:
-            # Формируем PowerShell-команду
             cmd = f'powershell -Command "Start-Process cmd -ArgumentList \'/k {command}\' -Verb RunAs"'
             subprocess.run(cmd, shell=True)
         except Exception as e:
