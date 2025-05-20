@@ -5,3 +5,5 @@
 
 # 🔑SimpleActivate
 This is an open-source Python program licensed under the GNU GENERAL PUBLIC LICENSE. The program is designed for completely free Windows activation using KMS.
+
+#😊 PROGRAM BENEFITS
